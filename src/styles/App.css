@@ -1,12 +1,50 @@
 h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+  color: #27aedb;
+  text-align: center;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+button {
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav > h4 {
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-inline: auto;
+}
+
+.card {
+  width: 40%;
+  margin: 8px;
+  display: flex;
+}
+
+.img--div {
+  width: 300px;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5px;
+  padding-bottom: 0%;
+  border-bottom: 1px solid orangered;
+}
+
+.parent {
+  padding: 0%;
 }
