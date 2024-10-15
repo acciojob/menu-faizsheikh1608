@@ -94,28 +94,28 @@ const App = function () {
     <div id="main">
       <h1>Our Menu</h1>
       <div className="nav">
-        <h4 onClick={() => handleclick("all")}>ALL</h4>
-        <h4
+        <button onClick={() => handleclick("all")}>ALL</button>
+        <button
           id="filter-btn-1"
           data-test-id="menu-item-breakfast"
           onClick={() => handleclick("breakfast")}
         >
           Breakfast
-        </h4>
-        <h4
+        </button>
+        <button
           id="filter-btn-2"
           data-test-id="menu-item-lunch"
           onClick={() => handleclick("lunch")}
         >
           Lunch
-        </h4>
-        <h4
+        </button>
+        <button
           id="filter-btn-3"
           data-test-id="menu-item-shakes"
           onClick={() => handleclick("shakes")}
         >
           Shakes
-        </h4>
+        </button>
       </div>
       <div className="body">
         {tempData.map((curr) => (
