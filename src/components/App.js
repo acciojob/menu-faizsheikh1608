@@ -95,13 +95,25 @@ const App = function () {
       <h1>Our Menu</h1>
       <div className="nav">
         <h4 onClick={() => handleclick("all")}>ALL</h4>
-        <h4 id="filter-btn-1" onClick={() => handleclick("breakfast")}>
+        <h4
+          id="filter-btn-1"
+          data-test-id="menu-item-breakfast"
+          onClick={() => handleclick("breakfast")}
+        >
           Breakfast
         </h4>
-        <h4 id="filter-btn-2" onClick={() => handleclick("lunch")}>
+        <h4
+          id="filter-btn-2"
+          data-test-id="menu-item-lunch"
+          onClick={() => handleclick("lunch")}
+        >
           Lunch
         </h4>
-        <h4 id="filter-btn-3" onClick={() => handleclick("shakes")}>
+        <h4
+          id="filter-btn-3"
+          data-test-id="menu-item-shakes"
+          onClick={() => handleclick("shakes")}
+        >
           Shakes
         </h4>
       </div>
